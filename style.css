@@ -1,7 +1,72 @@
+*{
+  margin : 0px;
+  padding : 0px;
+  box-sizing: content-box;
+}
 .hidden{
   display: none;
 }
 body{
   background-size: cover;
   background-repeat: no-repeat;
+  display : flex;
+  height : 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clock{
+  font-size:  70px;
+  color : white;
+  text-shadow: 0px 0px 10px rgb(128, 128, 128);
+}
+.login-form input{
+  border-radius: 15px;
+  border : none;
+}
+.login-form input[type=text]{
+  height : 40px;
+  width : 200px;
+  text-align : center;
+  font-size : 16px;
+  margin-right : 20px;
+}
+
+.login-form input[type=submit]{
+  height : 40px;
+  width : 60px;
+  background-color : white;
+}
+.greeting{
+  margin-top : 20px;
+  color : white;
+  text-shadow: 0px 0px 10px rgb(128, 128, 128);
+}
+.logout{
+  height : 40px;
+  width : 80px;
+  font-size : 15px;
+  background-color : white;
+  border : none;
+  border-radius: 15px;
+  position : fixed;
+  top : 30px;
+  right : 30px;
+}
+.todolist_form input {
+  height : 40px;
+  width : 250px;
+  text-align : center;
+  font-size : 13px;
+  margin-bottom : 30px;
+}
+.todolist li{
+  color : white;
+  font-size: 20px;
+  text-shadow: 0px 0px 10px rgb(128, 128, 128);
+}
+.weather { 
+  position : fixed;
+  left : 30px;
+  top : 30px;
 }
